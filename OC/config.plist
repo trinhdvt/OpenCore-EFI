@@ -577,27 +577,11 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
-				<string>VoodooI2CHID.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/VoodooI2CHID</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>BundlePath</key>
 				<string>VoodooI2CELAN.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VoodooI2CELAN</string>
 				<key>MaxKernel</key>
@@ -909,7 +893,7 @@
 			</dict>
 			<dict>
 				<key>Arguments</key>
-				<string></string>
+				<string>-b -n DSDT -z</string>
 				<key>Auxiliary</key>
 				<false/>
 				<key>Comment</key>
