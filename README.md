@@ -1,0 +1,2 @@
+# OpenCore-EFI
+hackintosh
