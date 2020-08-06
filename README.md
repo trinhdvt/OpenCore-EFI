@@ -8,8 +8,8 @@
 + Trackapd: I2C-ELAN1000
 + Wifi and Ethernet: Realtek
 #### Hakintosh:
-+ OpenCore bootloader v0.5.9
-+ MacOS Catalina 10.15.6
++ OpenCore bootloader v0.6.0
++ MacOS Catalina 10.15.6 triple-boot with Ubuntu and Window10 in one disk
 #### What's works:
 + Display Brightness
 + Audio (alcid=28)
@@ -18,7 +18,9 @@
 + Keyboard
 + CPU Power Management (CPUFriend)
 + Battery Indicator (Required patch DSDT)
+
 fixing ...
 #### What's not works:
 + Wifi (Require DW1550 or anything else)
+
 ...
