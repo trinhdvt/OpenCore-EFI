@@ -9,7 +9,7 @@
 + Wifi and Ethernet: Realtek
 #### Hakintosh:
 + OpenCore bootloader v0.6.0
-+ MacOS Catalina 10.15.6 triple-boot with Ubuntu and Window10 in one disk
++ ~~MacOS Catalina 10.15.6~~ <strong>Big Sur Beta now</strong> triple-boot with Ubuntu and Window10 in one disk
 #### What's works:
 + Display Brightness
 + Audio (alcid=28)
@@ -21,6 +21,6 @@
 
 fixing ...
 #### What's not works:
-+ Wifi (Require DW1550 or anything else)
++ Wifi and Bluetooth (Require DW1550 or anything else)
 
 ...
