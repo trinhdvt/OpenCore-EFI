@@ -1,6 +1,6 @@
 # OpenCore-EFI
-### OpenCore's EFI for Asus X555UA
 > Link for full guide: https://dortania.github.io/OpenCore-Install-Guide/
+### OpenCore's EFI for Asus X555UA
 #### System Information:
 + Laptop model: Asus X555UA
 + CPU: Core i5-6200U
