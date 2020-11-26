@@ -10,7 +10,7 @@
 + Wifi and Ethernet: Realtek
 #### Hakintosh:
 + OpenCore bootloader v0.6.0
-+ ~~MacOS Catalina 10.15.6~~ <strong>Big Sur Beta</strong> triple-boot with Ubuntu and Window10 in one disk
++ ~~MacOS Catalina 10.15.6~~ <strong>Big Sur now</strong> triple-boot with Ubuntu and Window10 in one disk
 #### What's works:
 + Display Brightness
 + Audio (alcid=28)
