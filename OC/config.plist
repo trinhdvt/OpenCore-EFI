@@ -178,7 +178,7 @@
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>X09TSQ==</data>
 				<key>Limit</key>
@@ -364,8 +364,6 @@
 			<false/>
 			<key>ProvideCustomSlide</key>
 			<true/>
-			<key>ProvideMaxSlide</key>
-			<integer>0</integer>
 			<key>RebuildAppleMemoryMap</key>
 			<false/>
 			<key>SetupVirtualMap</key>
@@ -400,8 +398,6 @@
 		<key>Add</key>
 		<array>
 			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
 				<key>BundlePath</key>
 				<string>Lilu.kext</string>
 				<key>Comment</key>
@@ -432,8 +428,6 @@
 				<string>12.0.0</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>Arch</key>
-				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -450,8 +444,6 @@
 				<string>12.0.0</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>Arch</key>
-				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -468,8 +460,6 @@
 				<string>12.0.0</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>Arch</key>
-				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -486,8 +476,6 @@
 				<string>12.0.0</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>Arch</key>
-				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -504,8 +492,6 @@
 				<string>12.0.0</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>Arch</key>
-				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -522,8 +508,6 @@
 				<string>12.0.0</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>Arch</key>
-				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -540,8 +524,6 @@
 				<string>12.0.0</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>Arch</key>
-				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -558,8 +540,6 @@
 				<string>12.0.0</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>Arch</key>
-				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -576,8 +556,6 @@
 				<string>12.0.0</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>Arch</key>
-				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -594,8 +572,6 @@
 				<string>12.0.0</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>Arch</key>
-				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -612,8 +588,6 @@
 				<string>12.0.0</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>Arch</key>
-				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -630,8 +604,6 @@
 				<string>12.0.0</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>Arch</key>
-				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -648,8 +620,6 @@
 				<string>12.0.0</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>Arch</key>
-				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -666,8 +636,6 @@
 				<string>12.0.0</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>Arch</key>
-				<string>x86_64</string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -684,8 +652,6 @@
 				<string>12.0.0</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>Arch</key>
-				<string>x86_64</string>
 			</dict>
 		</array>
 		<key>Block</key>
@@ -701,8 +667,6 @@
 				<string></string>
 				<key>MinKernel</key>
 				<string></string>
-				<key>Arch</key>
-				<string>Any</string>
 			</dict>
 		</array>
 		<key>Emulate</key>
@@ -711,36 +675,7 @@
 			<data></data>
 			<key>Cpuid1Mask</key>
 			<data></data>
-			<key>DummyPowerManagement</key>
-			<false/>
-			<key>MaxKernel</key>
-			<string></string>
-			<key>MinKernel</key>
-			<string></string>
 		</dict>
-		<key>Force</key>
-		<array>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>System/Library/Extensions/IONetworkingFamily.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<false/>
-				<key>Identifier</key>
-				<string>com.apple.iokit.IONetworkingFamily</string>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/IONetworkingFamily</string>
-				<key>MaxKernel</key>
-				<string>13.99.99</string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-		</array>
 		<key>Patch</key>
 		<array>
 			<dict>
@@ -770,8 +705,6 @@
 				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
-				<key>Arch</key>
-				<string>Any</string>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -800,8 +733,6 @@
 				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
-				<key>Arch</key>
-				<string>Any</string>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -830,8 +761,6 @@
 				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
-				<key>Arch</key>
-				<string>Any</string>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -860,8 +789,6 @@
 				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
-				<key>Arch</key>
-				<string>Any</string>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -890,8 +817,6 @@
 				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
-				<key>Arch</key>
-				<string>Any</string>
 			</dict>
 		</array>
 		<key>Quirks</key>
@@ -910,8 +835,8 @@
 			<true/>
 			<key>DisableRtcChecksum</key>
 			<false/>
-			<key>DisableLinkeditJettison</key>
-			<true/>
+			<key>DummyPowerManagement</key>
+			<false/>
 			<key>ExternalDiskIcons</key>
 			<false/>
 			<key>IncreasePciBarSize</key>
@@ -926,28 +851,12 @@
 			<false/>
 			<key>XhciPortLimit</key>
 			<true/>
-			<key>LegacyCommpage</key>
-			<false/>
-			<key>ExtendBTFeatureFlags</key>
-			<false/>
-			<key>ForceSecureBootScheme</key>
-			<false/>
-		</dict>
-		<key>Scheme</key>
-		<dict>
-			<key>FuzzyMatch</key>
-			<true/>
-			<key>KernelArch</key>
-			<string>x86_64</string>
-			<key>KernelCache</key>
-			<string>Auto</string>
 		</dict>
 	</dict>
 	<key>Misc</key>
 	<dict>
 		<key>BlessOverride</key>
-		<array>
-		</array>
+		<array/>
 		<key>Boot</key>
 		<dict>
 			<key>ConsoleAttributes</key>
@@ -1025,18 +934,6 @@
 			<integer>0</integer>
 			<key>Vault</key>
 			<string>Optional</string>
-			<key>ApECID</key>
-			<integer>0</integer>
-			<key>DmgLoading</key>
-			<string>Signed</string>
-			<key>EnablePassword</key>
-			<false/>
-			<key>PasswordHash</key>
-			<data></data>
-			<key>PasswordSalt</key>
-			<data></data>
-			<key>SecureBootModel</key>
-			<string>Default</string>
 		</dict>
 		<key>Tools</key>
 		<array>
@@ -1077,7 +974,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v vsmcgen=1 keepsyms=1 alcid=28 debug=0x100 agdpmod=pikera</string>
+				<string>-v keepsyms=1 alcid=28 debug=0x100</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1139,8 +1036,6 @@
 	<dict>
 		<key>Automatic</key>
 		<true/>
-		<key>CustomMemory</key>
-		<false/>
 		<key>Generic</key>
 		<dict>
 			<key>AdviseWindows</key>
@@ -1157,10 +1052,6 @@
 			<string>C02VFLZAGVC1</string>
 			<key>SystemUUID</key>
 			<string>2AD420D3-537C-41A4-ABD0-298B8341AC70</string>
-			<key>SystemMemoryStatus</key>
-			<string>Auto</string>
-			<key>ProcessorType</key>
-			<integer>0</integer>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -1258,8 +1149,6 @@
 			<string>BuiltinGraphics</string>
 			<key>UgaPassThrough</key>
 			<false/>
-			<key>ForceResolution</key>
-			<false/>
 		</dict>
 		<key>ProtocolOverrides</key>
 		<dict>
@@ -1295,10 +1184,6 @@
 			<false/>
 			<key>UnicodeCollation</key>
 			<false/>
-			<key>AppleImg4Verification</key>
-			<false/>
-			<key>AppleSecureBoot</key>
-			<false/>
 		</dict>
 		<key>Quirks</key>
 		<dict>
@@ -1328,8 +1213,6 @@
 				<false/>
 				<key>Size</key>
 				<integer>268435456</integer>
-				<key>Type</key>
-				<string>Reserved</string>
 			</dict>
 		</array>
 	</dict>
