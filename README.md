@@ -9,14 +9,14 @@
 + Trackapd: I2C-ELAN1000
 + Wifi and Ethernet: Realtek
 #### Hakintosh:
-+ OpenCore bootloader v0.6.0
-+ ~~MacOS Catalina 10.15.6~~ <strong>Big Sur now</strong> triple-boot with Ubuntu and Window10 in one disk
++ OpenCore bootloader v0.6.5
++ <strong>Big Sur</strong> dual-boot with Window10
 #### What's works:
 + Display Brightness
 + Audio (alcid=28)
 + iGPU
 + Trackpad with full gestsures (Required patch DSDT with I2C Controller's patch)
-+ Keyboard
++ Keyboard (fn key still not working)
 + CPU Power Management (CPUFriend)
 + Battery Indicator (Required patch DSDT)
 
